@@ -1,0 +1,12 @@
+code
+neovim
+python-neovim
+xclip
+feh
+termite
+base-devel
+firefox
+zsh
+nvidia
+python-pywal
+tlp
