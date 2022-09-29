@@ -5,10 +5,9 @@
 SCRIPT_FOLDER="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
 #Clone the theme
-echo -n "Downloading rEFInd theme Regular to ${SCRIPT_FOLDER}"
+echo "Installing rEFInd"
 rm -rf ${SCRIPT_FOLDER}/refind-theme-regular
 git clone https://github.com/bobafetthotmail/refind-theme-regular.git ${SCRIPT_FOLDER}/refind-theme-regular
-echo " - [DONE]"
 
 #Useful formatting tags
 bold=$(tput bold)

@@ -1,7 +1,6 @@
 # # Make Zsh default
 echo "changing shell"
 sudo chsh $USER -s /usr/bin/zsh
-echo "shell changed"
 
 SCRIPT_FOLDER="$( cd -- "$(dirname "$0")" >/dev/null 2>&1 ; pwd -P )"
 
